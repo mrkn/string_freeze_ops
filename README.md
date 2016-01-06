@@ -1,5 +1,7 @@
 # StringFreezeOps
 
+[![Build Status](https://travis-ci.org/mrkn/string_freeze_ops.svg?branch=master)](https://travis-ci.org/mrkn/string_freeze_ops)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/string_freeze_ops`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 This gem introduces `String#-@` for freezing a string and `String#+@` for defreezing a string, like Ruby 2.4.
