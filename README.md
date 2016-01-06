@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/string_freeze_ops`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+This gem introduces `String#-@` for freezing a string and `String#+@` for defreezing a string, like Ruby 2.4.
 
 ## Installation
 
@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+immutable_string = -"immutable string"
+mutable_string   = +"mutable string"
+```
 
 ## Development
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/string_freeze_ops.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mrkn/string_freeze_ops.
 
 
 ## License
