@@ -1,5 +1,1 @@
-require "string_freeze_ops/version"
-
-module StringFreezeOps
-  # Your code goes here...
-end
+require 'string_freeze_ops/core_ext/string' if RUBY_VERSION < '2.4'
